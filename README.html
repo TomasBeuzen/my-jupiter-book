@@ -177,7 +177,14 @@
             <i class="fas fa-list"></i> On this page
         </div>
         <nav id="bd-toc-nav">
-            
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#building-the-book">
+   Building the book
+  </a>
+ </li>
+</ul>
+
         </nav>
     </div>
 </div>
@@ -190,6 +197,27 @@
 <h1>My Jupiter Book<a class="headerlink" href="#my-jupiter-book" title="Permalink to this headline">¶</a></h1>
 <p>This repository was created as a demonstration of using Jupyter Book. It supplements a session I gave during the 2020 UBC Jupyter Days workshop which I hope to upload soon.</p>
 <p>View the book at http://www.tomasbeuzen.com/my-jupiter-book/.</p>
+<div class="section" id="building-the-book">
+<h2>Building the book<a class="headerlink" href="#building-the-book" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>Install the build requirements:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ pip install -r requirements.txt
+</pre></div>
+</div>
+<ol class="simple">
+<li><p>Clone this repo:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git clone git@github.com:TomasBeuzen/my-jupiter-book.git
+</pre></div>
+</div>
+<ol class="simple">
+<li><p>Build the book using:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ jupyter-book build ./
+</pre></div>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
